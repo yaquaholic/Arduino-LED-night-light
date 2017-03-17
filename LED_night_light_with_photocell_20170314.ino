@@ -1,10 +1,9 @@
 /* PIR LED night light
- * Version 0.1
- * 2017/02/02 Richard Graham
- * On PIR High, fade lights on for 5 minutes, then turn it off again.
- *  Okay it loads, and runs to a fashion, but no quite right,
- *  Now instrumented with serial outputs, to check the thresholds.
- *  When next I am here, i will sort it out.
+ * Version 0.2
+ * Richard Graham
+ *  On PIR High, fade lights on for 5 minutes, then turn it off again.
+ *  Okay it loads and runs, now instrumented with serial outputs, to check the thresholds.
+ *  Need to add the interupt to the PIR function, i will sort it out in v0.3
  */
 
 #include <CapacitiveSensor.h>
@@ -79,7 +78,7 @@ void CSread ()
 {
     long total1 =  touch.capacitiveSensor(30);     //a: Sensor resolution
     
-    if (total1 > 750){result = true;}              //b: Threshold
+    if (total1 > 750){result = true;}              //b: Touch threshold
     else {result = false;}    
     
     // to toggle the state of state
