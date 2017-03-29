@@ -8,6 +8,7 @@ Objectives
 2. Touchless switch for on/off (from https://github.com/arduino-libraries/CapacitiveSensor)
 3. LED light function fade on/off (from https://learn.adafruit.com/rgb-led-strips/usage)
 4. PIR function montion = fade on / x minutes / fade off
+5. 1M Ohm resistor for the capacative sensor
  
 Primary function will be to turn the LED light strip on and off, with capacative touchless switch, using a PWM fade up/down.
 When Photosensor sees lights go off, it enables the PIR.
