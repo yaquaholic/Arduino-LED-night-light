@@ -11,9 +11,9 @@ Objectives
 5. 1M Ohm resistor for the capacative sensor
  
 Primary function will be to turn the LED light strip on and off, with capacative touchless switch, using a PWM fade up/down.
-When Photosensor sees lights go off, it enables the PIR.
-        When PIR triggers, fade up lights, then hold for X minutes, fade down.
-        Interupt and fade light down if switch triggered.
+        Then when the Photosensor sees lights go off, it enables the PIR function.
+        Which, when the PIR sensor triggers, it fades up lights, then hold for 5 minutes, then fades them back down.
+        And interupt the 5 minute wait and fade light down, if/when the capactive sensor is triggered.
         
 
 The unit will be installed, just under the bed, so that the PIR only has view of the floor area, where the occupant get's in and out of bed.
