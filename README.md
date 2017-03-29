@@ -19,6 +19,11 @@ Primary function will be to turn the LED light strip on and off, with capacative
 The unit will be installed, just under the bed, so that the PIR only has view of the floor area, where the occupant get's in and out of bed.
 That way, if you get out of bed at night, the lights will automatically light up and turn off on your return to bed. 
 
+Issues so far:
+
+1. The photocell reads darkness most of the time under the bed. I could recalibrate or relocate unit/senor(s).
+2. The PIR sensor needs to be positioned well to only register when you get out of bed. I could try physical screening to limit its field of view.
+
 Kit list:
 
 1. Ardunio Nano (dev board) - Mini Pro for production.
