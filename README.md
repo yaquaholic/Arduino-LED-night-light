@@ -4,9 +4,9 @@ An Arduino (Nano/Mini Pro) based 5V LED strip light, with capacative sensor, pho
 
 Objectives
 
-1. Photosensor (is it dark) { PIR function enabled }
-2. Touchless switch for on/off
-3. LED light function fade on/off
+1. Photosensor (is it dark?) { then PIR function enabled }
+2. Touchless switch for on/off (from https://github.com/arduino-libraries/CapacitiveSensor)
+3. LED light function fade on/off (from https://learn.adafruit.com/rgb-led-strips/usage)
 4. PIR function montion = fade on / x minutes / fade off
  
 Primary function will be to turn the LED light strip on and off, with capacative touchless switch, using a PWM fade up/down.
