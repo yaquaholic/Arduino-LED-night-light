@@ -8,11 +8,9 @@
  * Notes:
  * PIR works great, in fact postioning of ther sensor is key. 
  * Photocell, likewise needs to see "room" light and not be hidden in darkness
- * or it will need calibrating in situ. 
+ * or it will need recalibrating. 
  * So either the photocell of the PIR sensor needs a longer lead, to seperate 
- * the two.
- * 
- * This verion still has outputs to serial, as I may try to recalibrate the photocell in situ.
+ * the two. This verion still has outputs to serial, as I may try to recalibrate the photocell in situ.
  * Final version won't have/need this.
  * 
  * In this version:
